@@ -20,6 +20,8 @@ services:
     extra_hosts:
       - 'host.docker.internal:host-gateway'
     env_file: .env
+    GOOGLE_CLIENT_ID=198365357808-s0762gh2iuk7ul05sdhths6bradg6h2d.apps.googleusercontent.com
+    GOOGLE_CLIENT_SECRET=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
   typebot-viewer:
     build:
       context: .
